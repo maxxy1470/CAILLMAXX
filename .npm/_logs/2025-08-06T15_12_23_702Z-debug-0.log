@@ -1,0 +1,36 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/my-whatsapp-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install @bot-whatsaap
+8 verbose argv "install" "@bot-whatsaap"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_12_23_702Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_12_23_702Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 verbose stack Error: Invalid tag name "@bot-whatsaap" of package "@bot-whatsaap": Tags may not have any characters that encodeURIComponent encodes.
+13 verbose stack     at invalidTagName (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-package-arg/lib/npa.js:143:15)
+13 verbose stack     at fromRegistry (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-package-arg/lib/npa.js:471:13)
+13 verbose stack     at resolve (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-package-arg/lib/npa.js:114:12)
+13 verbose stack     at npa (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-package-arg/lib/npa.js:56:10)
+13 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:519:18
+13 verbose stack     at Array.map (<anonymous>)
+13 verbose stack     at #add (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:516:27)
+13 verbose stack     at #applyUserRequestsToNode (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:485:22)
+13 verbose stack     at #applyUserRequests (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:420:42)
+13 verbose stack     at Arborist.buildIdealTree (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:36)
+14 error code EINVALIDTAGNAME
+15 error Invalid tag name "@bot-whatsaap" of package "@bot-whatsaap": Tags may not have any characters that encodeURIComponent encodes.
+16 silly unfinished npm timer reify 1754493144895
+17 silly unfinished npm timer reify:loadTrees 1754493144899
+18 silly unfinished npm timer idealTree:userRequests 1754493145011
+19 verbose cwd /data/data/com.termux/files/home/my-whatsapp-bot
+20 verbose os Linux 5.15.149-android13-8-g1a801f319cdb
+21 verbose node v24.5.0
+22 verbose npm  v11.5.1
+23 verbose exit 1
+24 verbose code 1
+25 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_12_23_702Z-debug-0.log

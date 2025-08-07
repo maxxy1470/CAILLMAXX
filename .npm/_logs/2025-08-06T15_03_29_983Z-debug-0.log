@@ -1,0 +1,376 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/my-whatsapp-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install maxx
+8 verbose argv "install" "maxx"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_03_29_983Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_03_29_983Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly fetch manifest maxx@*
+15 silly packumentCache full:https://registry.npmjs.org/maxx cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/maxx 1459ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/maxx set size:undefined disposed:false
+18 silly placeDep ROOT maxx@1.4.0 OK for: my-whatsapp-bot@1.0.0 want: *
+19 silly fetch manifest axios@^0.18.0
+20 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+21 silly fetch manifest chalk@^2.4.1
+22 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+23 silly fetch manifest commander@^2.19.0
+24 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+25 silly fetch manifest date-fns@^1.29.0
+26 silly packumentCache full:https://registry.npmjs.org/date-fns cache-miss
+27 silly fetch manifest dotenv@^6.1.0
+28 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+29 silly fetch manifest prompt-sync@^4.1.6
+30 silly packumentCache full:https://registry.npmjs.org/prompt-sync cache-miss
+31 silly fetch manifest tmp@0.0.33
+32 silly packumentCache full:https://registry.npmjs.org/tmp cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/axios 351ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+35 silly fetch manifest xml2js@^0.4.19
+36 silly packumentCache full:https://registry.npmjs.org/xml2js cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/chalk 595ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/chalk set size:undefined disposed:false
+39 silly fetch manifest yaml@^1.0.1
+40 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/dotenv 603ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/dotenv set size:undefined disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/xml2js 283ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/xml2js set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/tmp 768ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/tmp set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/commander 787ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/yaml 409ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/yaml set size:undefined disposed:false
+51 http fetch GET 200 https://registry.npmjs.org/prompt-sync 1353ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/prompt-sync set size:undefined disposed:false
+53 http fetch GET 200 https://registry.npmjs.org/date-fns 1383ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/date-fns set size:undefined disposed:false
+55 silly placeDep ROOT axios@0.18.1 OK for: maxx@1.4.0 want: ^0.18.0
+56 silly placeDep ROOT chalk@2.4.2 OK for: maxx@1.4.0 want: ^2.4.1
+57 silly placeDep ROOT commander@2.20.3 OK for: maxx@1.4.0 want: ^2.19.0
+58 silly placeDep ROOT date-fns@1.30.1 OK for: maxx@1.4.0 want: ^1.29.0
+59 silly placeDep ROOT dotenv@6.2.0 OK for: maxx@1.4.0 want: ^6.1.0
+60 silly placeDep ROOT prompt-sync@4.2.0 OK for: maxx@1.4.0 want: ^4.1.6
+61 silly placeDep ROOT tmp@0.0.33 OK for: maxx@1.4.0 want: 0.0.33
+62 silly placeDep ROOT xml2js@0.4.23 OK for: maxx@1.4.0 want: ^0.4.19
+63 silly placeDep ROOT yaml@1.10.2 OK for: maxx@1.4.0 want: ^1.0.1
+64 silly fetch manifest is-buffer@^2.0.2
+65 silly packumentCache full:https://registry.npmjs.org/is-buffer cache-miss
+66 silly fetch manifest follow-redirects@1.5.10
+67 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+68 silly fetch manifest ansi-styles@^3.2.1
+69 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+70 silly fetch manifest supports-color@^5.3.0
+71 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+72 silly fetch manifest escape-string-regexp@^1.0.5
+73 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-miss
+74 silly fetch manifest strip-ansi@^5.0.0
+75 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+76 silly fetch manifest os-tmpdir@~1.0.2
+77 silly packumentCache full:https://registry.npmjs.org/os-tmpdir cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 193ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp set size:undefined disposed:false
+80 silly fetch manifest sax@>=0.6.0
+81 silly packumentCache full:https://registry.npmjs.org/sax cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/is-buffer 214ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/is-buffer set size:undefined disposed:false
+84 silly fetch manifest xmlbuilder@~11.0.0
+85 silly packumentCache full:https://registry.npmjs.org/xmlbuilder cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/ansi-styles 218ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:undefined disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/supports-color 239ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/supports-color set size:undefined disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 345ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/os-tmpdir set size:undefined disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/follow-redirects 421ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+94 http fetch GET 200 https://registry.npmjs.org/strip-ansi 435ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:undefined disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/xmlbuilder 236ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/xmlbuilder set size:undefined disposed:false
+98 http fetch GET 200 https://registry.npmjs.org/sax 356ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/sax set size:undefined disposed:false
+100 silly placeDep ROOT follow-redirects@1.5.10 OK for: axios@0.18.1 want: 1.5.10
+101 silly placeDep ROOT is-buffer@2.0.5 OK for: axios@0.18.1 want: ^2.0.2
+102 silly fetch manifest debug@=3.1.0
+103 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/debug 171ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/debug set size:undefined disposed:false
+106 silly placeDep ROOT ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+107 silly placeDep ROOT escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+108 silly placeDep ROOT supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+109 silly fetch manifest color-convert@^1.9.0
+110 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+111 silly fetch manifest has-flag@^3.0.0
+112 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/has-flag 117ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/has-flag set size:undefined disposed:false
+115 http fetch GET 200 https://registry.npmjs.org/color-convert 152ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/color-convert set size:undefined disposed:false
+117 silly placeDep ROOT color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+118 silly fetch manifest color-name@1.1.3
+119 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/color-name 439ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/color-name set size:undefined disposed:false
+122 silly placeDep ROOT color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+123 silly placeDep ROOT debug@3.1.0 OK for: follow-redirects@1.5.10 want: =3.1.0
+124 silly fetch manifest ms@2.0.0
+125 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/ms 116ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/ms set size:undefined disposed:false
+128 silly placeDep ROOT ms@2.0.0 OK for: debug@3.1.0 want: 2.0.0
+129 silly placeDep ROOT strip-ansi@5.2.0 OK for: prompt-sync@4.2.0 want: ^5.0.0
+130 silly fetch manifest ansi-regex@^4.1.0
+131 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/ansi-regex 117ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:undefined disposed:false
+134 silly placeDep ROOT ansi-regex@4.1.1 OK for: strip-ansi@5.2.0 want: ^4.1.0
+135 silly placeDep ROOT has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+136 silly placeDep ROOT os-tmpdir@1.0.2 OK for: tmp@0.0.33 want: ~1.0.2
+137 silly placeDep ROOT sax@1.4.1 OK for: xml2js@0.4.23 want: >=0.6.0
+138 silly placeDep ROOT xmlbuilder@11.0.1 OK for: xml2js@0.4.23 want: ~11.0.0
+139 silly reify moves {}
+140 silly audit bulk request {
+140 silly audit   maxx: [ '1.4.0' ],
+140 silly audit   axios: [ '0.18.1' ],
+140 silly audit   chalk: [ '2.4.2' ],
+140 silly audit   commander: [ '2.20.3' ],
+140 silly audit   'date-fns': [ '1.30.1' ],
+140 silly audit   dotenv: [ '6.2.0' ],
+140 silly audit   'prompt-sync': [ '4.2.0' ],
+140 silly audit   tmp: [ '0.0.33' ],
+140 silly audit   xml2js: [ '0.4.23' ],
+140 silly audit   yaml: [ '1.10.2' ],
+140 silly audit   'follow-redirects': [ '1.5.10' ],
+140 silly audit   'is-buffer': [ '2.0.5' ],
+140 silly audit   'ansi-styles': [ '3.2.1' ],
+140 silly audit   'escape-string-regexp': [ '1.0.5' ],
+140 silly audit   'supports-color': [ '5.5.0' ],
+140 silly audit   'color-convert': [ '1.9.3' ],
+140 silly audit   'color-name': [ '1.1.3' ],
+140 silly audit   debug: [ '3.1.0' ],
+140 silly audit   ms: [ '2.0.0' ],
+140 silly audit   'strip-ansi': [ '5.2.0' ],
+140 silly audit   'ansi-regex': [ '4.1.1' ],
+140 silly audit   'has-flag': [ '3.0.0' ],
+140 silly audit   'os-tmpdir': [ '1.0.2' ],
+140 silly audit   sax: [ '1.4.1' ],
+140 silly audit   xmlbuilder: [ '11.0.1' ]
+140 silly audit }
+141 http cache os-tmpdir@https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz 1ms (cache hit)
+142 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 0ms (cache hit)
+143 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.1.tgz 0ms (cache hit)
+144 http cache xmlbuilder@https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz 0ms (cache hit)
+145 http cache debug@https://registry.npmjs.org/debug/-/debug-3.1.0.tgz 0ms (cache hit)
+146 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 0ms (cache hit)
+147 http cache sax@https://registry.npmjs.org/sax/-/sax-1.4.1.tgz 0ms (cache hit)
+148 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 0ms (cache hit)
+149 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 0ms (cache hit)
+150 http cache escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 0ms (cache hit)
+151 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz 0ms (cache hit)
+152 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.5.10.tgz 1ms (cache hit)
+153 http cache is-buffer@https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.5.tgz 0ms (cache hit)
+154 http cache yaml@https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz 0ms (cache hit)
+155 http cache xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz 0ms (cache hit)
+156 http cache tmp@https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz 0ms (cache hit)
+157 http cache prompt-sync@https://registry.npmjs.org/prompt-sync/-/prompt-sync-4.2.0.tgz 0ms (cache hit)
+158 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-6.2.0.tgz 0ms (cache hit)
+159 http cache date-fns@https://registry.npmjs.org/date-fns/-/date-fns-1.30.1.tgz 0ms (cache hit)
+160 http cache commander@https://registry.npmjs.org/commander/-/commander-2.20.3.tgz 0ms (cache hit)
+161 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz 0ms (cache hit)
+162 http cache axios@https://registry.npmjs.org/axios/-/axios-0.18.1.tgz 0ms (cache hit)
+163 http cache maxx@https://registry.npmjs.org/maxx/-/maxx-1.4.0.tgz 0ms (cache hit)
+164 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-5.2.0.tgz 0ms (cache hit)
+165 http cache ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 0ms (cache hit)
+166 silly tarball no local data for os-tmpdir@https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz. Extracting by manifest.
+167 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+168 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.1.tgz. Extracting by manifest.
+169 silly tarball no local data for xmlbuilder@https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz. Extracting by manifest.
+170 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-3.1.0.tgz. Extracting by manifest.
+171 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz. Extracting by manifest.
+172 silly tarball no local data for sax@https://registry.npmjs.org/sax/-/sax-1.4.1.tgz. Extracting by manifest.
+173 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz. Extracting by manifest.
+174 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz. Extracting by manifest.
+175 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+176 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz. Extracting by manifest.
+177 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.5.10.tgz. Extracting by manifest.
+178 silly tarball no local data for is-buffer@https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.5.tgz. Extracting by manifest.
+179 silly tarball no local data for yaml@https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz. Extracting by manifest.
+180 silly tarball no local data for xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz. Extracting by manifest.
+181 silly tarball no local data for tmp@https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz. Extracting by manifest.
+182 silly tarball no local data for prompt-sync@https://registry.npmjs.org/prompt-sync/-/prompt-sync-4.2.0.tgz. Extracting by manifest.
+183 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-6.2.0.tgz. Extracting by manifest.
+184 silly tarball no local data for date-fns@https://registry.npmjs.org/date-fns/-/date-fns-1.30.1.tgz. Extracting by manifest.
+185 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-2.20.3.tgz. Extracting by manifest.
+186 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz. Extracting by manifest.
+187 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-0.18.1.tgz. Extracting by manifest.
+188 silly tarball no local data for maxx@https://registry.npmjs.org/maxx/-/maxx-1.4.0.tgz. Extracting by manifest.
+189 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-5.2.0.tgz. Extracting by manifest.
+190 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+191 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 420ms
+192 silly audit report {
+192 silly audit report   axios: [
+192 silly audit report     {
+192 silly audit report       id: 1102326,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-cph5-m8f7-6c5x',
+192 silly audit report       title: 'axios Inefficient Regular Expression Complexity vulnerability',
+192 silly audit report       severity: 'high',
+192 silly audit report       vulnerable_versions: '<0.21.2',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     },
+192 silly audit report     {
+192 silly audit report       id: 1103617,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-jr5f-v2jv-69x6',
+192 silly audit report       title: 'axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL',
+192 silly audit report       severity: 'high',
+192 silly audit report       vulnerable_versions: '<0.30.0',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     },
+192 silly audit report     {
+192 silly audit report       id: 1090049,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-4w2v-q235-vp99',
+192 silly audit report       title: 'Axios vulnerable to Server-Side Request Forgery',
+192 silly audit report       severity: 'moderate',
+192 silly audit report       vulnerable_versions: '<0.21.1',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     },
+192 silly audit report     {
+192 silly audit report       id: 1097679,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-wf5p-g6vw-rhxx',
+192 silly audit report       title: 'Axios Cross-Site Request Forgery Vulnerability',
+192 silly audit report       severity: 'moderate',
+192 silly audit report       vulnerable_versions: '>=0.8.1 <0.28.0',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     }
+192 silly audit report   ],
+192 silly audit report   xml2js: [
+192 silly audit report     {
+192 silly audit report       id: 1096693,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-776f-qx25-q3cc',
+192 silly audit report       title: 'xml2js is vulnerable to prototype pollution',
+192 silly audit report       severity: 'moderate',
+192 silly audit report       vulnerable_versions: '<0.5.0',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     }
+192 silly audit report   ],
+192 silly audit report   'follow-redirects': [
+192 silly audit report     {
+192 silly audit report       id: 1102323,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-74fj-2j2h-c42q',
+192 silly audit report       title: 'Exposure of sensitive information in follow-redirects',
+192 silly audit report       severity: 'high',
+192 silly audit report       vulnerable_versions: '<1.14.7',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     },
+192 silly audit report     {
+192 silly audit report       id: 1096856,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-cxjh-pqwp-8mfp',
+192 silly audit report       title: "follow-redirects' Proxy-Authorization header kept across hosts",
+192 silly audit report       severity: 'moderate',
+192 silly audit report       vulnerable_versions: '<=1.15.5',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     },
+192 silly audit report     {
+192 silly audit report       id: 1092623,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-pw2r-vq6v-hr8c',
+192 silly audit report       title: 'Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects',
+192 silly audit report       severity: 'moderate',
+192 silly audit report       vulnerable_versions: '<1.14.8',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     },
+192 silly audit report     {
+192 silly audit report       id: 1096353,
+192 silly audit report       url: 'https://github.com/advisories/GHSA-jchw-25xp-jwwc',
+192 silly audit report       title: 'Follow Redirects improperly handles URLs in the url.parse() function',
+192 silly audit report       severity: 'moderate',
+192 silly audit report       vulnerable_versions: '<1.15.4',
+192 silly audit report       cwe: [Array],
+192 silly audit report       cvss: [Object]
+192 silly audit report     }
+192 silly audit report   ]
+192 silly audit report }
+193 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+194 silly packumentCache corgi:https://registry.npmjs.org/xml2js cache-miss
+195 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects cache-miss
+196 http fetch GET 200 https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz 413ms (cache miss)
+197 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 419ms (cache miss)
+198 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.1.tgz 419ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 415ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz 403ms (cache miss)
+201 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-3.1.0.tgz 510ms (cache miss)
+202 http fetch GET 200 https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz 494ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz 559ms (cache miss)
+204 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-6.2.0.tgz 614ms (cache miss)
+205 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.20.3.tgz 612ms (cache miss)
+206 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz 611ms (cache miss)
+207 http fetch GET 200 https://registry.npmjs.org/prompt-sync/-/prompt-sync-4.2.0.tgz 699ms (cache miss)
+208 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 973ms (cache miss)
+209 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-5.2.0.tgz 955ms (cache miss)
+210 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 986ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz 993ms (cache miss)
+212 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 970ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.5.tgz 992ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/follow-redirects 657ms (cache miss)
+215 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+216 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 1068ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/sax/-/sax-1.4.1.tgz 1073ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.5.10.tgz 1071ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/axios 752ms (cache miss)
+220 silly packumentCache corgi:https://registry.npmjs.org/axios set size:undefined disposed:false
+221 http fetch GET 200 https://registry.npmjs.org/xml2js 828ms (cache miss)
+222 silly packumentCache corgi:https://registry.npmjs.org/xml2js set size:undefined disposed:false
+223 silly packumentCache corgi:https://registry.npmjs.org/maxx cache-miss
+224 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-0.18.1.tgz 1232ms (cache miss)
+225 warn deprecated axios@0.18.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+226 http fetch GET 200 https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz 1319ms (cache miss)
+227 http fetch GET 200 https://registry.npmjs.org/maxx/-/maxx-1.4.0.tgz 1358ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/date-fns/-/date-fns-1.30.1.tgz 2155ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/maxx 1078ms (cache miss)
+230 silly packumentCache corgi:https://registry.npmjs.org/maxx set size:undefined disposed:false
+231 silly ADD node_modules/xmlbuilder
+232 silly ADD node_modules/sax
+233 silly ADD node_modules/os-tmpdir
+234 silly ADD node_modules/has-flag
+235 silly ADD node_modules/ansi-regex
+236 silly ADD node_modules/strip-ansi
+237 silly ADD node_modules/ms
+238 silly ADD node_modules/debug
+239 silly ADD node_modules/color-name
+240 silly ADD node_modules/color-convert
+241 silly ADD node_modules/supports-color
+242 silly ADD node_modules/escape-string-regexp
+243 silly ADD node_modules/ansi-styles
+244 silly ADD node_modules/is-buffer
+245 silly ADD node_modules/follow-redirects
+246 silly ADD node_modules/yaml
+247 silly ADD node_modules/xml2js
+248 silly ADD node_modules/tmp
+249 silly ADD node_modules/prompt-sync
+250 silly ADD node_modules/dotenv
+251 silly ADD node_modules/date-fns
+252 silly ADD node_modules/commander
+253 silly ADD node_modules/chalk
+254 silly ADD node_modules/axios
+255 silly ADD node_modules/maxx
+256 verbose cwd /data/data/com.termux/files/home/my-whatsapp-bot
+257 verbose os Linux 5.15.149-android13-8-g1a801f319cdb
+258 verbose node v24.5.0
+259 verbose npm  v11.5.1
+260 verbose exit 0
+261 info ok

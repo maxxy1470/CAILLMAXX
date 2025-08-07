@@ -1,0 +1,200 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/my-whatsapp-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install whatsapp - bot
+8 verbose argv "install" "whatsapp" "-" "bot"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_18_03_576Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_18_03_576Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly fetch manifest whatsapp@*
+15 silly packumentCache full:https://registry.npmjs.org/whatsapp cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/whatsapp 1563ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/whatsapp set size:undefined disposed:false
+18 silly fetch manifest -@*
+19 silly packumentCache full:https://registry.npmjs.org/- cache-miss
+20 http cache https://registry.npmjs.org/- 52ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/- set size:2680 disposed:false
+22 silly fetch manifest bot@*
+23 silly packumentCache full:https://registry.npmjs.org/bot cache-miss
+24 http cache https://registry.npmjs.org/bot 19ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/bot set size:7963 disposed:false
+26 silly placeDep ROOT -@0.0.1 OK for: my-whatsapp-bot@1.0.0 want: *
+27 silly placeDep ROOT bot@0.0.3 OK for: my-whatsapp-bot@1.0.0 want: *
+28 silly placeDep ROOT whatsapp@0.0.5-Alpha OK for: my-whatsapp-bot@1.0.0 want: *
+29 silly fetch manifest colors@0.6.0-1
+30 silly packumentCache full:https://registry.npmjs.org/colors cache-miss
+31 silly fetch manifest @types/node@~18.11.18
+32 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+33 http cache https://registry.npmjs.org/colors 23ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/colors set size:55725 disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 3010ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+37 silly placeDep ROOT colors@0.6.0-1 OK for: bot@0.0.3 want: 0.6.0-1
+38 silly placeDep ROOT @types/node@18.11.19 OK for: whatsapp@0.0.5-Alpha want: ~18.11.18
+39 silly reify moves {}
+40 silly audit bulk request {
+40 silly audit   'ansi-regex': [ '4.1.1' ],
+40 silly audit   'ansi-styles': [ '3.2.1' ],
+40 silly audit   axios: [ '0.18.1' ],
+40 silly audit   chalk: [ '2.4.2' ],
+40 silly audit   'color-convert': [ '1.9.3' ],
+40 silly audit   'color-name': [ '1.1.3' ],
+40 silly audit   commander: [ '2.20.3' ],
+40 silly audit   'date-fns': [ '1.30.1' ],
+40 silly audit   debug: [ '3.1.0' ],
+40 silly audit   dotenv: [ '6.2.0' ],
+40 silly audit   'escape-string-regexp': [ '1.0.5' ],
+40 silly audit   'follow-redirects': [ '1.5.10' ],
+40 silly audit   'has-flag': [ '3.0.0' ],
+40 silly audit   'is-buffer': [ '2.0.5' ],
+40 silly audit   maxx: [ '1.4.0' ],
+40 silly audit   ms: [ '2.0.0' ],
+40 silly audit   'os-tmpdir': [ '1.0.2' ],
+40 silly audit   'prompt-sync': [ '4.2.0' ],
+40 silly audit   sax: [ '1.4.1' ],
+40 silly audit   'strip-ansi': [ '5.2.0' ],
+40 silly audit   'supports-color': [ '5.5.0' ],
+40 silly audit   tmp: [ '0.0.33' ],
+40 silly audit   xml2js: [ '0.4.23' ],
+40 silly audit   xmlbuilder: [ '11.0.1' ],
+40 silly audit   yaml: [ '1.10.2' ],
+40 silly audit   '-': [ '0.0.1' ],
+40 silly audit   bot: [ '0.0.3' ],
+40 silly audit   whatsapp: [ '0.0.5-Alpha' ],
+40 silly audit   colors: [ '0.6.0-1' ],
+40 silly audit   '@types/node': [ '18.11.19' ]
+40 silly audit }
+41 http cache colors@https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz 1ms (cache hit)
+42 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-18.11.19.tgz 0ms (cache hit)
+43 http cache whatsapp@https://registry.npmjs.org/whatsapp/-/whatsapp-0.0.5-Alpha.tgz 0ms (cache hit)
+44 http cache bot@https://registry.npmjs.org/bot/-/bot-0.0.3.tgz 0ms (cache hit)
+45 http cache -@https://registry.npmjs.org/-/-/--0.0.1.tgz 0ms (cache hit)
+46 silly tarball no local data for colors@https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz. Extracting by manifest.
+47 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-18.11.19.tgz. Extracting by manifest.
+48 silly tarball no local data for whatsapp@https://registry.npmjs.org/whatsapp/-/whatsapp-0.0.5-Alpha.tgz. Extracting by manifest.
+49 silly tarball no local data for bot@https://registry.npmjs.org/bot/-/bot-0.0.3.tgz. Extracting by manifest.
+50 silly tarball no local data for -@https://registry.npmjs.org/-/-/--0.0.1.tgz. Extracting by manifest.
+51 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 612ms
+52 silly audit report {
+52 silly audit report   axios: [
+52 silly audit report     {
+52 silly audit report       id: 1102326,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-cph5-m8f7-6c5x',
+52 silly audit report       title: 'axios Inefficient Regular Expression Complexity vulnerability',
+52 silly audit report       severity: 'high',
+52 silly audit report       vulnerable_versions: '<0.21.2',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     },
+52 silly audit report     {
+52 silly audit report       id: 1103617,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-jr5f-v2jv-69x6',
+52 silly audit report       title: 'axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL',
+52 silly audit report       severity: 'high',
+52 silly audit report       vulnerable_versions: '<0.30.0',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     },
+52 silly audit report     {
+52 silly audit report       id: 1090049,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-4w2v-q235-vp99',
+52 silly audit report       title: 'Axios vulnerable to Server-Side Request Forgery',
+52 silly audit report       severity: 'moderate',
+52 silly audit report       vulnerable_versions: '<0.21.1',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     },
+52 silly audit report     {
+52 silly audit report       id: 1097679,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-wf5p-g6vw-rhxx',
+52 silly audit report       title: 'Axios Cross-Site Request Forgery Vulnerability',
+52 silly audit report       severity: 'moderate',
+52 silly audit report       vulnerable_versions: '>=0.8.1 <0.28.0',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     }
+52 silly audit report   ],
+52 silly audit report   'follow-redirects': [
+52 silly audit report     {
+52 silly audit report       id: 1102323,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-74fj-2j2h-c42q',
+52 silly audit report       title: 'Exposure of sensitive information in follow-redirects',
+52 silly audit report       severity: 'high',
+52 silly audit report       vulnerable_versions: '<1.14.7',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     },
+52 silly audit report     {
+52 silly audit report       id: 1096856,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-cxjh-pqwp-8mfp',
+52 silly audit report       title: "follow-redirects' Proxy-Authorization header kept across hosts",
+52 silly audit report       severity: 'moderate',
+52 silly audit report       vulnerable_versions: '<=1.15.5',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     },
+52 silly audit report     {
+52 silly audit report       id: 1092623,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-pw2r-vq6v-hr8c',
+52 silly audit report       title: 'Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects',
+52 silly audit report       severity: 'moderate',
+52 silly audit report       vulnerable_versions: '<1.14.8',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     },
+52 silly audit report     {
+52 silly audit report       id: 1096353,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-jchw-25xp-jwwc',
+52 silly audit report       title: 'Follow Redirects improperly handles URLs in the url.parse() function',
+52 silly audit report       severity: 'moderate',
+52 silly audit report       vulnerable_versions: '<1.15.4',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     }
+52 silly audit report   ],
+52 silly audit report   xml2js: [
+52 silly audit report     {
+52 silly audit report       id: 1096693,
+52 silly audit report       url: 'https://github.com/advisories/GHSA-776f-qx25-q3cc',
+52 silly audit report       title: 'xml2js is vulnerable to prototype pollution',
+52 silly audit report       severity: 'moderate',
+52 silly audit report       vulnerable_versions: '<0.5.0',
+52 silly audit report       cwe: [Array],
+52 silly audit report       cvss: [Object]
+52 silly audit report     }
+52 silly audit report   ]
+52 silly audit report }
+53 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+54 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects cache-miss
+55 silly packumentCache corgi:https://registry.npmjs.org/xml2js cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz 843ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/-/-/--0.0.1.tgz 837ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/xml2js 356ms (cache revalidated)
+59 silly packumentCache corgi:https://registry.npmjs.org/xml2js set size:38207 disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/whatsapp/-/whatsapp-0.0.5-Alpha.tgz 1014ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/axios 470ms (cache revalidated)
+62 silly packumentCache corgi:https://registry.npmjs.org/axios set size:246813 disposed:false
+63 http fetch GET 200 https://registry.npmjs.org/follow-redirects 536ms (cache revalidated)
+64 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects set size:87653 disposed:false
+65 silly packumentCache corgi:https://registry.npmjs.org/maxx cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/maxx 927ms (cache revalidated)
+67 silly packumentCache corgi:https://registry.npmjs.org/maxx set size:9552 disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-18.11.19.tgz 2104ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/bot/-/bot-0.0.3.tgz 4341ms (cache miss)
+70 silly ADD node_modules/@types/node
+71 silly ADD node_modules/colors
+72 silly ADD node_modules/whatsapp
+73 silly ADD node_modules/bot
+74 silly ADD node_modules/-
+75 verbose cwd /data/data/com.termux/files/home/my-whatsapp-bot
+76 verbose os Linux 5.15.149-android13-8-g1a801f319cdb
+77 verbose node v24.5.0
+78 verbose npm  v11.5.1
+79 verbose exit 0
+80 info ok

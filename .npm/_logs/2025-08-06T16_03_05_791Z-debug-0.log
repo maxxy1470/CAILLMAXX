@@ -1,0 +1,433 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/my-whatsapp-bot/my-node-app/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install express
+8 verbose argv "install" "express"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-06T16_03_05_791Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-06T16_03_05_791Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+14 silly idealTree buildDeps
+15 silly fetch manifest express@*
+16 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/express 1198ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/express set size:undefined disposed:false
+19 silly placeDep ROOT express@5.1.0 OK for: my-node-app@1.0.0 want: *
+20 silly fetch manifest qs@^6.14.0
+21 silly packumentCache full:https://registry.npmjs.org/qs cache-miss
+22 silly fetch manifest etag@^1.8.1
+23 silly packumentCache full:https://registry.npmjs.org/etag cache-miss
+24 silly fetch manifest once@^1.4.0
+25 silly packumentCache full:https://registry.npmjs.org/once cache-miss
+26 silly fetch manifest send@^1.1.0
+27 silly packumentCache full:https://registry.npmjs.org/send cache-miss
+28 silly fetch manifest vary@^1.1.2
+29 silly packumentCache full:https://registry.npmjs.org/vary cache-miss
+30 silly fetch manifest debug@^4.4.0
+31 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+32 silly fetch manifest fresh@^2.0.0
+33 silly packumentCache full:https://registry.npmjs.org/fresh cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/qs 376ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/qs set size:undefined disposed:false
+36 silly fetch manifest cookie@^0.7.1
+37 silly packumentCache full:https://registry.npmjs.org/cookie cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/cookie 305ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/cookie set size:undefined disposed:false
+40 silly fetch manifest router@^2.2.0
+41 silly packumentCache full:https://registry.npmjs.org/router cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/once 784ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/once set size:undefined disposed:false
+44 silly fetch manifest accepts@^2.0.0
+45 silly packumentCache full:https://registry.npmjs.org/accepts cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/etag 803ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/etag set size:undefined disposed:false
+48 silly fetch manifest type-is@^2.0.1
+49 silly packumentCache full:https://registry.npmjs.org/type-is cache-miss
+50 silly fetch manifest parseurl@^1.3.3
+51 silly packumentCache full:https://registry.npmjs.org/parseurl cache-miss
+52 http fetch GET https://registry.npmjs.org/accepts attempt 1 failed with ECONNRESET
+53 http fetch GET https://registry.npmjs.org/debug attempt 1 failed with ECONNRESET
+54 http fetch GET 200 https://registry.npmjs.org/send 995ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/send set size:undefined disposed:false
+56 silly fetch manifest statuses@^2.0.1
+57 silly packumentCache full:https://registry.npmjs.org/statuses cache-miss
+58 http fetch GET https://registry.npmjs.org/statuses attempt 1 failed with ECONNRESET
+59 http fetch GET https://registry.npmjs.org/accepts attempt 2 failed with ECONNRESET
+60 http fetch GET https://registry.npmjs.org/debug attempt 2 failed with ECONNRESET
+61 http fetch GET https://registry.npmjs.org/statuses attempt 2 failed with ECONNRESET
+62 http fetch GET https://registry.npmjs.org/accepts attempt 3 failed with ECONNRESET
+63 silly fetch manifest encodeurl@^2.0.0
+64 silly packumentCache full:https://registry.npmjs.org/encodeurl cache-miss
+65 http fetch GET https://registry.npmjs.org/debug attempt 3 failed with ECONNRESET
+66 http fetch GET 200 https://registry.npmjs.org/debug 71399ms (cache stale)
+67 silly packumentCache full:https://registry.npmjs.org/debug set size:193521 disposed:false
+68 silly fetch manifest mime-types@^3.0.0
+69 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+70 http fetch GET https://registry.npmjs.org/encodeurl attempt 1 failed with ECONNRESET
+71 http fetch GET https://registry.npmjs.org/statuses attempt 3 failed with ECONNRESET
+72 silly fetch manifest proxy-addr@^2.0.7
+73 silly packumentCache full:https://registry.npmjs.org/proxy-addr cache-miss
+74 http fetch GET https://registry.npmjs.org/mime-types attempt 1 failed with ECONNRESET
+75 http fetch GET https://registry.npmjs.org/proxy-addr attempt 1 failed with ECONNRESET
+76 http fetch GET https://registry.npmjs.org/encodeurl attempt 2 failed with ECONNRESET
+77 http fetch GET https://registry.npmjs.org/mime-types attempt 2 failed with ECONNRESET
+78 http fetch GET https://registry.npmjs.org/proxy-addr attempt 2 failed with ECONNRESET
+79 http fetch GET https://registry.npmjs.org/encodeurl attempt 3 failed with ECONNRESET
+80 silly fetch manifest body-parser@^2.2.0
+81 silly packumentCache full:https://registry.npmjs.org/body-parser cache-miss
+82 http fetch GET https://registry.npmjs.org/mime-types attempt 3 failed with ECONNRESET
+83 silly fetch manifest escape-html@^1.0.3
+84 silly packumentCache full:https://registry.npmjs.org/escape-html cache-miss
+85 http fetch GET https://registry.npmjs.org/proxy-addr attempt 3 failed with ECONNRESET
+86 silly fetch manifest http-errors@^2.0.0
+87 silly packumentCache full:https://registry.npmjs.org/http-errors cache-miss
+88 http fetch GET https://registry.npmjs.org/body-parser attempt 1 failed with ECONNRESET
+89 http fetch GET https://registry.npmjs.org/escape-html attempt 1 failed with ECONNRESET
+90 http fetch GET https://registry.npmjs.org/http-errors attempt 1 failed with ECONNRESET
+91 http fetch GET https://registry.npmjs.org/body-parser attempt 2 failed with ECONNRESET
+92 http fetch GET https://registry.npmjs.org/escape-html attempt 2 failed with ECONNRESET
+93 http fetch GET https://registry.npmjs.org/http-errors attempt 2 failed with ECONNRESET
+94 http fetch GET https://registry.npmjs.org/fresh attempt 1 failed with ECONNABORTED
+95 http fetch GET https://registry.npmjs.org/vary attempt 1 failed with ECONNABORTED
+96 http fetch GET https://registry.npmjs.org/parseurl attempt 1 failed with ECONNABORTED
+97 http fetch GET https://registry.npmjs.org/type-is attempt 1 failed with ECONNABORTED
+98 http fetch GET https://registry.npmjs.org/fresh attempt 2 failed with ENETUNREACH
+99 http fetch GET https://registry.npmjs.org/vary attempt 2 failed with ENETUNREACH
+100 http fetch GET https://registry.npmjs.org/parseurl attempt 2 failed with ENETUNREACH
+101 http fetch GET https://registry.npmjs.org/type-is attempt 2 failed with ENETUNREACH
+102 http fetch GET https://registry.npmjs.org/body-parser attempt 3 failed with ENETUNREACH
+103 silly fetch manifest on-finished@^2.4.1
+104 silly packumentCache full:https://registry.npmjs.org/on-finished cache-miss
+105 http fetch GET https://registry.npmjs.org/escape-html attempt 3 failed with ENETUNREACH
+106 silly fetch manifest content-type@^1.0.5
+107 silly packumentCache full:https://registry.npmjs.org/content-type cache-miss
+108 http fetch GET https://registry.npmjs.org/on-finished attempt 1 failed with ENETUNREACH
+109 http fetch GET https://registry.npmjs.org/http-errors attempt 3 failed with ENETUNREACH
+110 silly fetch manifest finalhandler@^2.1.0
+111 silly packumentCache full:https://registry.npmjs.org/finalhandler cache-miss
+112 http fetch GET https://registry.npmjs.org/content-type attempt 1 failed with ENETUNREACH
+113 http fetch GET https://registry.npmjs.org/finalhandler attempt 1 failed with ENETUNREACH
+114 http fetch GET https://registry.npmjs.org/on-finished attempt 2 failed with ENETUNREACH
+115 http fetch GET https://registry.npmjs.org/content-type attempt 2 failed with ENETUNREACH
+116 http fetch GET https://registry.npmjs.org/finalhandler attempt 2 failed with ENETUNREACH
+117 http fetch GET https://registry.npmjs.org/fresh attempt 3 failed with ENETUNREACH
+118 silly fetch manifest range-parser@^1.2.1
+119 silly packumentCache full:https://registry.npmjs.org/range-parser cache-miss
+120 http fetch GET https://registry.npmjs.org/vary attempt 3 failed with ENETUNREACH
+121 silly fetch manifest serve-static@^2.2.0
+122 silly packumentCache full:https://registry.npmjs.org/serve-static cache-miss
+123 http fetch GET https://registry.npmjs.org/range-parser attempt 1 failed with ENETUNREACH
+124 http fetch GET https://registry.npmjs.org/parseurl attempt 3 failed with ENETUNREACH
+125 silly fetch manifest cookie-signature@^1.2.1
+126 silly packumentCache full:https://registry.npmjs.org/cookie-signature cache-miss
+127 http fetch GET https://registry.npmjs.org/type-is attempt 3 failed with ENETUNREACH
+128 silly fetch manifest merge-descriptors@^2.0.0
+129 silly packumentCache full:https://registry.npmjs.org/merge-descriptors cache-miss
+130 http fetch GET https://registry.npmjs.org/serve-static attempt 1 failed with ENETUNREACH
+131 http fetch GET https://registry.npmjs.org/cookie-signature attempt 1 failed with ENETUNREACH
+132 http fetch GET https://registry.npmjs.org/merge-descriptors attempt 1 failed with ENETUNREACH
+133 http fetch GET https://registry.npmjs.org/range-parser attempt 2 failed with ENETUNREACH
+134 http fetch GET https://registry.npmjs.org/serve-static attempt 2 failed with ENETUNREACH
+135 http fetch GET https://registry.npmjs.org/cookie-signature attempt 2 failed with ENETUNREACH
+136 http fetch GET https://registry.npmjs.org/merge-descriptors attempt 2 failed with ENETUNREACH
+137 http fetch GET https://registry.npmjs.org/on-finished attempt 3 failed with ENETUNREACH
+138 silly fetch manifest content-disposition@^1.0.0
+139 silly packumentCache full:https://registry.npmjs.org/content-disposition cache-miss
+140 http fetch GET https://registry.npmjs.org/content-type attempt 3 failed with ENETUNREACH
+141 http fetch GET https://registry.npmjs.org/content-disposition attempt 1 failed with ENETUNREACH
+142 http fetch GET https://registry.npmjs.org/finalhandler attempt 3 failed with ENETUNREACH
+143 http fetch GET https://registry.npmjs.org/content-disposition attempt 2 failed with ENETUNREACH
+144 http fetch GET https://registry.npmjs.org/range-parser attempt 3 failed with ENOTFOUND
+145 http fetch GET https://registry.npmjs.org/serve-static attempt 3 failed with ENOTFOUND
+146 http fetch GET https://registry.npmjs.org/cookie-signature attempt 3 failed with ENOTFOUND
+147 http fetch GET https://registry.npmjs.org/merge-descriptors attempt 3 failed with ENOTFOUND
+148 http fetch GET https://registry.npmjs.org/content-disposition attempt 3 failed with ENOTFOUND
+149 silly fetch manifest vary@^1.1.2
+150 silly packumentCache full:https://registry.npmjs.org/vary cache-miss
+151 http fetch GET https://registry.npmjs.org/vary attempt 1 failed with ENOTFOUND
+152 http fetch GET https://registry.npmjs.org/vary attempt 2 failed with ENOTFOUND
+153 http fetch GET https://registry.npmjs.org/vary attempt 3 failed with ENOTFOUND
+154 silly fetch manifest fresh@^2.0.0
+155 silly packumentCache full:https://registry.npmjs.org/fresh cache-miss
+156 http fetch GET https://registry.npmjs.org/fresh attempt 1 failed with ENOTFOUND
+157 http fetch GET https://registry.npmjs.org/fresh attempt 2 failed with ENOTFOUND
+158 http fetch GET https://registry.npmjs.org/fresh attempt 3 failed with ENOTFOUND
+159 silly fetch manifest router@^2.2.0
+160 silly packumentCache full:https://registry.npmjs.org/router cache-miss
+161 http fetch GET https://registry.npmjs.org/router attempt 1 failed with ENOTFOUND
+162 http fetch GET https://registry.npmjs.org/router attempt 2 failed with ENOTFOUND
+163 http fetch GET https://registry.npmjs.org/router attempt 3 failed with ENOTFOUND
+164 silly fetch manifest accepts@^2.0.0
+165 silly packumentCache full:https://registry.npmjs.org/accepts cache-miss
+166 http fetch GET https://registry.npmjs.org/accepts attempt 1 failed with ENOTFOUND
+167 http fetch GET https://registry.npmjs.org/accepts attempt 2 failed with ENOTFOUND
+168 http fetch GET https://registry.npmjs.org/accepts attempt 3 failed with ENOTFOUND
+169 silly fetch manifest type-is@^2.0.1
+170 silly packumentCache full:https://registry.npmjs.org/type-is cache-miss
+171 http fetch GET https://registry.npmjs.org/type-is attempt 1 failed with ENOTFOUND
+172 http fetch GET https://registry.npmjs.org/type-is attempt 2 failed with ENOTFOUND
+173 http fetch GET https://registry.npmjs.org/type-is attempt 3 failed with ENOTFOUND
+174 silly fetch manifest parseurl@^1.3.3
+175 silly packumentCache full:https://registry.npmjs.org/parseurl cache-miss
+176 http fetch GET https://registry.npmjs.org/parseurl attempt 1 failed with ENOTFOUND
+177 http fetch GET https://registry.npmjs.org/parseurl attempt 2 failed with ENOTFOUND
+178 http fetch GET https://registry.npmjs.org/parseurl attempt 3 failed with ENOTFOUND
+179 silly fetch manifest statuses@^2.0.1
+180 silly packumentCache full:https://registry.npmjs.org/statuses cache-miss
+181 http fetch GET https://registry.npmjs.org/statuses attempt 1 failed with ENOTFOUND
+182 http fetch GET https://registry.npmjs.org/statuses attempt 2 failed with ENOTFOUND
+183 http fetch GET https://registry.npmjs.org/statuses attempt 3 failed with ENOTFOUND
+184 silly fetch manifest encodeurl@^2.0.0
+185 silly packumentCache full:https://registry.npmjs.org/encodeurl cache-miss
+186 http fetch GET https://registry.npmjs.org/encodeurl attempt 1 failed with ENOTFOUND
+187 http fetch GET https://registry.npmjs.org/encodeurl attempt 2 failed with ENOTFOUND
+188 http fetch GET https://registry.npmjs.org/encodeurl attempt 3 failed with ENOTFOUND
+189 silly fetch manifest mime-types@^3.0.0
+190 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+191 http fetch GET https://registry.npmjs.org/mime-types attempt 1 failed with ENOTFOUND
+192 http fetch GET https://registry.npmjs.org/mime-types attempt 2 failed with ENOTFOUND
+193 http fetch GET https://registry.npmjs.org/mime-types attempt 3 failed with ENOTFOUND
+194 silly fetch manifest proxy-addr@^2.0.7
+195 silly packumentCache full:https://registry.npmjs.org/proxy-addr cache-miss
+196 http fetch GET https://registry.npmjs.org/proxy-addr attempt 1 failed with ENOTFOUND
+197 http fetch GET https://registry.npmjs.org/proxy-addr attempt 2 failed with ENOTFOUND
+198 http fetch GET https://registry.npmjs.org/proxy-addr attempt 3 failed with ENOTFOUND
+199 silly fetch manifest body-parser@^2.2.0
+200 silly packumentCache full:https://registry.npmjs.org/body-parser cache-miss
+201 http fetch GET https://registry.npmjs.org/body-parser attempt 1 failed with ENOTFOUND
+202 http fetch GET https://registry.npmjs.org/body-parser attempt 2 failed with ENOTFOUND
+203 http fetch GET https://registry.npmjs.org/body-parser attempt 3 failed with ENOTFOUND
+204 silly fetch manifest escape-html@^1.0.3
+205 silly packumentCache full:https://registry.npmjs.org/escape-html cache-miss
+206 http fetch GET https://registry.npmjs.org/escape-html attempt 1 failed with ENOTFOUND
+207 http fetch GET https://registry.npmjs.org/escape-html attempt 2 failed with ENOTFOUND
+208 http fetch GET https://registry.npmjs.org/escape-html attempt 3 failed with ENOTFOUND
+209 silly fetch manifest http-errors@^2.0.0
+210 silly packumentCache full:https://registry.npmjs.org/http-errors cache-miss
+211 http fetch GET https://registry.npmjs.org/http-errors attempt 1 failed with ENOTFOUND
+212 http fetch GET https://registry.npmjs.org/http-errors attempt 2 failed with ENOTFOUND
+213 http fetch GET https://registry.npmjs.org/http-errors attempt 3 failed with ENOTFOUND
+214 silly fetch manifest on-finished@^2.4.1
+215 silly packumentCache full:https://registry.npmjs.org/on-finished cache-miss
+216 http fetch GET https://registry.npmjs.org/on-finished attempt 1 failed with ENOTFOUND
+217 http fetch GET https://registry.npmjs.org/on-finished attempt 2 failed with ENOTFOUND
+218 http fetch GET https://registry.npmjs.org/on-finished attempt 3 failed with ENOTFOUND
+219 silly fetch manifest content-type@^1.0.5
+220 silly packumentCache full:https://registry.npmjs.org/content-type cache-miss
+221 http fetch GET https://registry.npmjs.org/content-type attempt 1 failed with ENOTFOUND
+222 http fetch GET https://registry.npmjs.org/content-type attempt 2 failed with ENOTFOUND
+223 http fetch GET https://registry.npmjs.org/content-type attempt 3 failed with ENOTFOUND
+224 silly fetch manifest finalhandler@^2.1.0
+225 silly packumentCache full:https://registry.npmjs.org/finalhandler cache-miss
+226 http fetch GET https://registry.npmjs.org/finalhandler attempt 1 failed with ENOTFOUND
+227 http fetch GET https://registry.npmjs.org/finalhandler attempt 2 failed with ENOTFOUND
+228 http fetch GET https://registry.npmjs.org/finalhandler attempt 3 failed with ENOTFOUND
+229 silly fetch manifest range-parser@^1.2.1
+230 silly packumentCache full:https://registry.npmjs.org/range-parser cache-miss
+231 http fetch GET https://registry.npmjs.org/range-parser attempt 1 failed with ENOTFOUND
+232 http fetch GET https://registry.npmjs.org/range-parser attempt 2 failed with ENOTFOUND
+233 http fetch GET https://registry.npmjs.org/range-parser attempt 3 failed with ENOTFOUND
+234 silly fetch manifest serve-static@^2.2.0
+235 silly packumentCache full:https://registry.npmjs.org/serve-static cache-miss
+236 http fetch GET https://registry.npmjs.org/serve-static attempt 1 failed with ENOTFOUND
+237 http fetch GET https://registry.npmjs.org/serve-static attempt 2 failed with ENOTFOUND
+238 http fetch GET https://registry.npmjs.org/serve-static attempt 3 failed with ENOTFOUND
+239 silly fetch manifest cookie-signature@^1.2.1
+240 silly packumentCache full:https://registry.npmjs.org/cookie-signature cache-miss
+241 http fetch GET https://registry.npmjs.org/cookie-signature attempt 1 failed with ENOTFOUND
+242 http fetch GET https://registry.npmjs.org/cookie-signature attempt 2 failed with ENOTFOUND
+243 http fetch GET https://registry.npmjs.org/cookie-signature attempt 3 failed with ENOTFOUND
+244 silly fetch manifest merge-descriptors@^2.0.0
+245 silly packumentCache full:https://registry.npmjs.org/merge-descriptors cache-miss
+246 http fetch GET https://registry.npmjs.org/merge-descriptors attempt 1 failed with ENOTFOUND
+247 http fetch GET https://registry.npmjs.org/merge-descriptors attempt 2 failed with ENOTFOUND
+248 http fetch GET https://registry.npmjs.org/merge-descriptors attempt 3 failed with ENOTFOUND
+249 silly fetch manifest content-disposition@^1.0.0
+250 silly packumentCache full:https://registry.npmjs.org/content-disposition cache-miss
+251 http fetch GET https://registry.npmjs.org/content-disposition attempt 1 failed with ENOTFOUND
+252 http fetch GET https://registry.npmjs.org/content-disposition attempt 2 failed with ENOTFOUND
+253 http fetch GET https://registry.npmjs.org/content-disposition attempt 3 failed with ENOTFOUND
+254 silly placeDep node_modules/express accepts@ OK for: express@5.1.0 want: ^2.0.0
+255 silly placeDep node_modules/express body-parser@ OK for: express@5.1.0 want: ^2.2.0
+256 silly placeDep node_modules/express content-disposition@ OK for: express@5.1.0 want: ^1.0.0
+257 silly placeDep node_modules/express content-type@ OK for: express@5.1.0 want: ^1.0.5
+258 silly placeDep ROOT cookie@0.7.2 OK for: express@5.1.0 want: ^0.7.1
+259 silly placeDep node_modules/express cookie-signature@ OK for: express@5.1.0 want: ^1.2.1
+260 silly placeDep ROOT debug@4.4.1 OK for: express@5.1.0 want: ^4.4.0
+261 silly placeDep node_modules/express encodeurl@ OK for: express@5.1.0 want: ^2.0.0
+262 silly placeDep node_modules/express escape-html@ OK for: express@5.1.0 want: ^1.0.3
+263 silly placeDep ROOT etag@1.8.1 OK for: express@5.1.0 want: ^1.8.1
+264 silly placeDep node_modules/express finalhandler@ OK for: express@5.1.0 want: ^2.1.0
+265 silly placeDep node_modules/express fresh@ OK for: express@5.1.0 want: ^2.0.0
+266 silly placeDep node_modules/express http-errors@ OK for: express@5.1.0 want: ^2.0.0
+267 silly placeDep node_modules/express merge-descriptors@ OK for: express@5.1.0 want: ^2.0.0
+268 silly placeDep node_modules/express mime-types@ OK for: express@5.1.0 want: ^3.0.0
+269 silly placeDep node_modules/express on-finished@ OK for: express@5.1.0 want: ^2.4.1
+270 silly placeDep ROOT once@1.4.0 OK for: express@5.1.0 want: ^1.4.0
+271 silly placeDep node_modules/express parseurl@ OK for: express@5.1.0 want: ^1.3.3
+272 silly placeDep node_modules/express proxy-addr@ OK for: express@5.1.0 want: ^2.0.7
+273 silly placeDep ROOT qs@6.14.0 OK for: express@5.1.0 want: ^6.14.0
+274 silly placeDep node_modules/express range-parser@ OK for: express@5.1.0 want: ^1.2.1
+275 silly placeDep node_modules/express router@ OK for: express@5.1.0 want: ^2.2.0
+276 silly placeDep ROOT send@1.2.0 OK for: express@5.1.0 want: ^1.1.0
+277 silly placeDep node_modules/express serve-static@ OK for: express@5.1.0 want: ^2.2.0
+278 silly placeDep node_modules/express statuses@ OK for: express@5.1.0 want: ^2.0.1
+279 silly placeDep node_modules/express type-is@ OK for: express@5.1.0 want: ^2.0.1
+280 silly placeDep node_modules/express vary@ OK for: express@5.1.0 want: ^1.1.2
+281 silly fetch manifest ms@^2.1.3
+282 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+283 silly fetch manifest wrappy@1
+284 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+285 silly fetch manifest side-channel@^1.1.0
+286 silly packumentCache full:https://registry.npmjs.org/side-channel cache-miss
+287 silly fetch manifest encodeurl@^2.0.0
+288 silly packumentCache full:https://registry.npmjs.org/encodeurl cache-miss
+289 silly fetch manifest escape-html@^1.0.3
+290 silly packumentCache full:https://registry.npmjs.org/escape-html cache-miss
+291 silly fetch manifest fresh@^2.0.0
+292 silly packumentCache full:https://registry.npmjs.org/fresh cache-miss
+293 silly fetch manifest http-errors@^2.0.0
+294 silly packumentCache full:https://registry.npmjs.org/http-errors cache-miss
+295 http fetch GET https://registry.npmjs.org/wrappy attempt 1 failed with ENOTFOUND
+296 http fetch GET https://registry.npmjs.org/side-channel attempt 1 failed with ENOTFOUND
+297 http fetch GET https://registry.npmjs.org/encodeurl attempt 1 failed with ENOTFOUND
+298 http fetch GET https://registry.npmjs.org/escape-html attempt 1 failed with ENOTFOUND
+299 http fetch GET https://registry.npmjs.org/fresh attempt 1 failed with ENOTFOUND
+300 http fetch GET https://registry.npmjs.org/http-errors attempt 1 failed with ENOTFOUND
+301 http fetch GET https://registry.npmjs.org/ms attempt 1 failed with ENOTFOUND
+302 http fetch GET https://registry.npmjs.org/wrappy attempt 2 failed with ENOTFOUND
+303 http fetch GET https://registry.npmjs.org/side-channel attempt 2 failed with ENOTFOUND
+304 http fetch GET https://registry.npmjs.org/encodeurl attempt 2 failed with ENOTFOUND
+305 http fetch GET https://registry.npmjs.org/escape-html attempt 2 failed with ENOTFOUND
+306 http fetch GET https://registry.npmjs.org/fresh attempt 2 failed with ENOTFOUND
+307 http fetch GET https://registry.npmjs.org/http-errors attempt 2 failed with ENOTFOUND
+308 http fetch GET https://registry.npmjs.org/ms attempt 2 failed with ENOTFOUND
+309 http fetch GET https://registry.npmjs.org/wrappy attempt 3 failed with ENOTFOUND
+310 silly fetch manifest mime-types@^3.0.1
+311 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+312 http fetch GET https://registry.npmjs.org/side-channel attempt 3 failed with ENOTFOUND
+313 silly fetch manifest ms@^2.1.3
+314 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+315 http fetch GET https://registry.npmjs.org/encodeurl attempt 3 failed with ENOTFOUND
+316 silly fetch manifest on-finished@^2.4.1
+317 silly packumentCache full:https://registry.npmjs.org/on-finished cache-miss
+318 http fetch GET https://registry.npmjs.org/escape-html attempt 3 failed with ENOTFOUND
+319 silly fetch manifest range-parser@^1.2.1
+320 silly packumentCache full:https://registry.npmjs.org/range-parser cache-miss
+321 http fetch GET https://registry.npmjs.org/fresh attempt 3 failed with ENOTFOUND
+322 silly fetch manifest statuses@^2.0.1
+323 silly packumentCache full:https://registry.npmjs.org/statuses cache-miss
+324 http fetch GET https://registry.npmjs.org/http-errors attempt 3 failed with ENOTFOUND
+325 http fetch GET https://registry.npmjs.org/ms attempt 3 failed with ENOTFOUND
+326 http fetch GET https://registry.npmjs.org/mime-types attempt 1 failed with ENOTFOUND
+327 http fetch GET https://registry.npmjs.org/on-finished attempt 1 failed with ENOTFOUND
+328 http fetch GET https://registry.npmjs.org/range-parser attempt 1 failed with ENOTFOUND
+329 http fetch GET https://registry.npmjs.org/statuses attempt 1 failed with ENOTFOUND
+330 http fetch GET https://registry.npmjs.org/ms attempt 1 failed with ENOTFOUND
+331 http fetch GET 200 https://registry.npmjs.org/ms 70234ms (cache stale)
+332 silly packumentCache full:https://registry.npmjs.org/ms set size:84883 disposed:false
+333 http fetch GET https://registry.npmjs.org/mime-types attempt 2 failed with ENOTFOUND
+334 http fetch GET https://registry.npmjs.org/on-finished attempt 2 failed with ENOTFOUND
+335 http fetch GET https://registry.npmjs.org/range-parser attempt 2 failed with ENOTFOUND
+336 http fetch GET https://registry.npmjs.org/statuses attempt 2 failed with ENOTFOUND
+337 http fetch GET https://registry.npmjs.org/ms attempt 2 failed with ENOTFOUND
+338 http fetch GET https://registry.npmjs.org/mime-types attempt 3 failed with ENOTFOUND
+339 http fetch GET https://registry.npmjs.org/on-finished attempt 3 failed with ENOTFOUND
+340 http fetch GET https://registry.npmjs.org/range-parser attempt 3 failed with ENOTFOUND
+341 http fetch GET https://registry.npmjs.org/statuses attempt 3 failed with ENOTFOUND
+342 http fetch GET https://registry.npmjs.org/ms attempt 3 failed with ENOTFOUND
+343 http fetch GET 200 https://registry.npmjs.org/ms 70135ms (cache stale)
+344 silly packumentCache full:https://registry.npmjs.org/ms set size:84883 disposed:false
+345 silly packumentCache full:https://registry.npmjs.org/ms dispose
+346 silly placeDep ROOT ms@2.1.3 OK for: debug@4.4.1 want: ^2.1.3
+347 silly fetch manifest wrappy@1
+348 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+349 http fetch GET https://registry.npmjs.org/wrappy attempt 1 failed with ENOTFOUND
+350 http fetch GET https://registry.npmjs.org/wrappy attempt 2 failed with ENOTFOUND
+351 http fetch GET https://registry.npmjs.org/wrappy attempt 3 failed with ENOTFOUND
+352 silly placeDep node_modules/once wrappy@ OK for: once@1.4.0 want: 1
+353 silly fetch manifest side-channel@^1.1.0
+354 silly packumentCache full:https://registry.npmjs.org/side-channel cache-miss
+355 http fetch GET https://registry.npmjs.org/side-channel attempt 1 failed with ENOTFOUND
+356 http fetch GET https://registry.npmjs.org/side-channel attempt 2 failed with ENOTFOUND
+357 http fetch GET https://registry.npmjs.org/side-channel attempt 3 failed with ENOTFOUND
+358 silly placeDep node_modules/qs side-channel@ OK for: qs@6.14.0 want: ^1.1.0
+359 silly fetch manifest encodeurl@^2.0.0
+360 silly packumentCache full:https://registry.npmjs.org/encodeurl cache-miss
+361 http fetch GET https://registry.npmjs.org/encodeurl attempt 1 failed with ENOTFOUND
+362 http fetch GET https://registry.npmjs.org/encodeurl attempt 2 failed with ENOTFOUND
+363 http fetch GET https://registry.npmjs.org/encodeurl attempt 3 failed with ENOTFOUND
+364 silly fetch manifest escape-html@^1.0.3
+365 silly packumentCache full:https://registry.npmjs.org/escape-html cache-miss
+366 http fetch GET https://registry.npmjs.org/escape-html attempt 1 failed with ENOTFOUND
+367 http fetch GET https://registry.npmjs.org/escape-html attempt 2 failed with ENOTFOUND
+368 http fetch GET https://registry.npmjs.org/escape-html attempt 3 failed with ENOTFOUND
+369 silly fetch manifest fresh@^2.0.0
+370 silly packumentCache full:https://registry.npmjs.org/fresh cache-miss
+371 http fetch GET https://registry.npmjs.org/fresh attempt 1 failed with ENOTFOUND
+372 http fetch GET https://registry.npmjs.org/fresh attempt 2 failed with ENOTFOUND
+373 http fetch GET https://registry.npmjs.org/fresh attempt 3 failed with ENOTFOUND
+374 silly fetch manifest http-errors@^2.0.0
+375 silly packumentCache full:https://registry.npmjs.org/http-errors cache-miss
+376 http fetch GET https://registry.npmjs.org/http-errors attempt 1 failed with ENOTFOUND
+377 http fetch GET https://registry.npmjs.org/http-errors attempt 2 failed with ENOTFOUND
+378 http fetch GET https://registry.npmjs.org/http-errors attempt 3 failed with ENOTFOUND
+379 silly fetch manifest mime-types@^3.0.1
+380 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+381 http fetch GET https://registry.npmjs.org/mime-types attempt 1 failed with ENOTFOUND
+382 http fetch GET https://registry.npmjs.org/mime-types attempt 2 failed with ENOTFOUND
+383 http fetch GET https://registry.npmjs.org/mime-types attempt 3 failed with ENOTFOUND
+384 silly fetch manifest on-finished@^2.4.1
+385 silly packumentCache full:https://registry.npmjs.org/on-finished cache-miss
+386 http fetch GET https://registry.npmjs.org/on-finished attempt 1 failed with ENOTFOUND
+387 http fetch GET https://registry.npmjs.org/on-finished attempt 2 failed with ENOTFOUND
+388 http fetch GET https://registry.npmjs.org/on-finished attempt 3 failed with ENOTFOUND
+389 silly fetch manifest range-parser@^1.2.1
+390 silly packumentCache full:https://registry.npmjs.org/range-parser cache-miss
+391 http fetch GET https://registry.npmjs.org/range-parser attempt 1 failed with ENOTFOUND
+392 http fetch GET https://registry.npmjs.org/range-parser attempt 2 failed with ENOTFOUND
+393 http fetch GET https://registry.npmjs.org/range-parser attempt 3 failed with ENOTFOUND
+394 silly fetch manifest statuses@^2.0.1
+395 silly packumentCache full:https://registry.npmjs.org/statuses cache-miss
+396 http fetch GET https://registry.npmjs.org/statuses attempt 1 failed with ENOTFOUND
+397 http fetch GET https://registry.npmjs.org/statuses attempt 2 failed with ENOTFOUND
+398 http fetch GET https://registry.npmjs.org/statuses attempt 3 failed with ENOTFOUND
+399 silly placeDep node_modules/send encodeurl@ OK for: send@1.2.0 want: ^2.0.0
+400 silly placeDep node_modules/send escape-html@ OK for: send@1.2.0 want: ^1.0.3
+401 silly placeDep node_modules/send fresh@ OK for: send@1.2.0 want: ^2.0.0
+402 silly placeDep node_modules/send http-errors@ OK for: send@1.2.0 want: ^2.0.0
+403 silly placeDep node_modules/send mime-types@ OK for: send@1.2.0 want: ^3.0.1
+404 silly placeDep node_modules/send on-finished@ OK for: send@1.2.0 want: ^2.4.1
+405 silly placeDep node_modules/send range-parser@ OK for: send@1.2.0 want: ^1.2.1
+406 silly placeDep node_modules/send statuses@ OK for: send@1.2.0 want: ^2.0.1
+407 verbose type system
+408 verbose stack FetchError: request to https://registry.npmjs.org/accepts failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+408 verbose stack     at ClientRequest.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+408 verbose stack     at ClientRequest.emit (node:events:507:28)
+408 verbose stack     at emitErrorEvent (node:_http_client:106:11)
+408 verbose stack     at _destroy (node:_http_client:954:9)
+408 verbose stack     at onSocketNT (node:_http_client:974:5)
+408 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+409 error code ENOTFOUND
+410 error syscall getaddrinfo
+411 error errno ENOTFOUND
+412 error network request to https://registry.npmjs.org/accepts failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+413 error network This is a problem related to network connectivity.
+413 error network In most cases you are behind a proxy or have bad network settings.
+413 error network
+413 error network If you are behind a proxy, please make sure that the
+413 error network 'proxy' config is set properly.  See: 'npm help config'
+414 silly unfinished npm timer reify 1754496186947
+415 silly unfinished npm timer reify:loadTrees 1754496186950
+416 verbose cwd /data/data/com.termux/files/home/my-whatsapp-bot/my-node-app
+417 verbose os Linux 5.15.149-android13-8-g1a801f319cdb
+418 verbose node v24.5.0
+419 verbose npm  v11.5.1
+420 verbose exit 1
+421 verbose code 1
+422 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-08-06T16_03_05_791Z-debug-0.log

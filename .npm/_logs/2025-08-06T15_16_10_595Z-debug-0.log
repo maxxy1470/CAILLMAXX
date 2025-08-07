@@ -1,0 +1,62 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/my-whatsapp-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install @totigm/whatsapp - bot
+8 verbose argv "install" "@totigm/whatsapp" "-" "bot"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_16_10_595Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_16_10_595Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+13 silly idealTree buildDeps
+14 silly fetch manifest @totigm/whatsapp@*
+15 silly packumentCache full:https://registry.npmjs.org/@totigm%2fwhatsapp cache-miss
+16 http fetch GET 404 https://registry.npmjs.org/@totigm%2fwhatsapp 1347ms (cache skip)
+17 silly fetch manifest -@*
+18 silly packumentCache full:https://registry.npmjs.org/- cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/- 378ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/- set size:undefined disposed:false
+21 silly fetch manifest bot@*
+22 silly packumentCache full:https://registry.npmjs.org/bot cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/bot 874ms (cache miss)
+24 silly packumentCache full:https://registry.npmjs.org/bot set size:undefined disposed:false
+25 silly placeDep ROOT -@0.0.1 OK for: my-whatsapp-bot@1.0.0 want: *
+26 silly placeDep ROOT @totigm/whatsapp@ OK for: my-whatsapp-bot@1.0.0 want: *
+27 silly placeDep ROOT bot@0.0.3 OK for: my-whatsapp-bot@1.0.0 want: *
+28 silly fetch manifest colors@0.6.0-1
+29 silly packumentCache full:https://registry.npmjs.org/colors cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/colors 159ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/colors set size:undefined disposed:false
+32 silly placeDep ROOT colors@0.6.0-1 OK for: bot@0.0.3 want: 0.6.0-1
+33 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@totigm%2fwhatsapp - Not found
+33 verbose stack     at /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:103:15
+33 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+33 verbose stack     at async RegistryFetcher.packument (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/pacote/lib/registry.js:90:19)
+33 verbose stack     at async RegistryFetcher.manifest (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/pacote/lib/registry.js:128:23)
+33 verbose stack     at async #fetchManifest (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1215:20)
+33 verbose stack     at async #nodeFromEdge (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1053:19)
+33 verbose stack     at async #buildDepStep (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:917:11)
+33 verbose stack     at async Arborist.buildIdealTree (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:182:7)
+33 verbose stack     at async Promise.all (index 1)
+33 verbose stack     at async Arborist.reify (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:126:5)
+34 verbose statusCode 404
+35 verbose pkgid @totigm/whatsapp@*
+36 error code E404
+37 error 404 Not Found - GET https://registry.npmjs.org/@totigm%2fwhatsapp - Not found
+38 error 404
+39 error 404  The requested resource '@totigm/whatsapp@*' could not be found or you do not have permission to access it.
+40 error 404
+41 error 404 Note that you can also install from a
+42 error 404 tarball, folder, http url, or git url.
+43 silly unfinished npm timer reify 1754493371639
+44 silly unfinished npm timer reify:loadTrees 1754493371641
+45 verbose cwd /data/data/com.termux/files/home/my-whatsapp-bot
+46 verbose os Linux 5.15.149-android13-8-g1a801f319cdb
+47 verbose node v24.5.0
+48 verbose npm  v11.5.1
+49 verbose exit 1
+50 verbose code 1
+51 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-08-06T15_16_10_595Z-debug-0.log
